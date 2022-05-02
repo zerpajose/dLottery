@@ -10,7 +10,7 @@ A smart contract driven lottery, the owner can start and end lottery, other addr
 - Start Lottery
 - End Lottery
 
-**Lottery Contract**
+**External Contracts**
 - Openzeppelin Contracts for owner secure management.
 - Chainlink VRFv2 Contracts for On-Chain results randomization.
 
