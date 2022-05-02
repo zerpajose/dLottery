@@ -1,15 +1,18 @@
 # dLottery
 
-A smart contract driven lottery
+A smart contract driven lottery, the owner can start and end lottery, other addresses can enter lottery paying an entry ETH fee, the sum of all entry fees will be automatically dressed to the lottery winner when the owner ends lottery. The lottery uses Chainlink VRF contracts to fetch verifiable on-chain results.
 
 ## Features
 
 **Lottery Contract**
-
 - Get Entry Fee
 - Enter Lottery
 - Start Lottery
 - End Lottery
+
+**Lottery Contract**
+- Openzeppelin Contracts for owner secure management.
+- Chainlink VRF Contracts for On-Chain results randomization.
 
 ## Technologies
 
@@ -23,6 +26,7 @@ A smart contract driven lottery
 ```bash
 npm install @chainlink/contracts --save
 npm install @openzeppelin/contracts --save
+npm install truffle --save
 ```
 
 ## Run App
