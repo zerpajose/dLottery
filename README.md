@@ -1,6 +1,6 @@
 # dLottery
 
-A smart contract driven lottery, the owner can start and end lottery, other addresses can enter lottery paying an entry ETH fee, the sum of all entry fees will be automatically dressed to the lottery winner when the owner ends lottery. The lottery uses Chainlink VRFv2 contracts to fetch verifiable on-chain results.
+dLottery (decentralized Lottery) Is a smart contract driven lottery, the owner can start and end lottery, other addresses can enter lottery paying an entry ETH fee, the sum of all entry fees will be automatically dressed to the lottery winner when the owner ends lottery. The lottery uses Chainlink VRFv2 contracts to fetch verifiable on-chain results.
 
 ## Features
 
