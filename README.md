@@ -30,7 +30,7 @@ npm install truffle --save
 ```
 - In order to use Chainlink VRFv2, you should go to [Subscription](https://vrf.chain.link/) and follow the step by step to configure your Subscriptor, when your contract is deployed add it to Consumers and deposit some Testnet $LINK to the suscriber.
 
-## Run App
+## Compile & Deploy
 
 ```bash
 truffle compile
